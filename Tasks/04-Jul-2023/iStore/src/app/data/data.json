@@ -1,0 +1,470 @@
+{
+  "users": [
+    {
+      "email": "lorenzo@gmail.com",
+      "password": "$2a$10$iUC9zu6I5JKIqFFpozcJG..l6pJS84SHuyukvuNktBe3ikUFgY4EW",
+      "_password": "lorenzo@123",
+      "username": "lorenzo",
+      "type": "user",
+      "id": 6
+    },
+    {
+        "email": "admin@gmail.com",
+        "password": "$2a$10$iUC9zu6I5JKIqFFpozcJG..l6pJS84SHuyukvuNktBe3ikUFgY4EW",
+        "_password": "lorenzo@123",
+        "username": "admin",
+        "type": "admin",
+        "id": 7
+    }
+  ],
+  "productcategory":[
+    {
+        "id":1,
+        "name":"Phone"
+    },
+    {
+        "id":2,
+        "name":"TV & Smart Home"
+    },
+    {
+        "id":3,
+        "name":"Laptop & Tablet"
+    },
+    {
+        "id":4,
+        "name":"LifeStyle"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Redmi A2+",
+      "productcategoryid":1,
+      "mrp": 11999,
+      "price":8499,
+      "reviewscount":9,
+      "averagerating":5.0,
+      "images":["9a811e076ef614fbcaee5d63702d6dbe.jpg","b0dc5c0db2210cb0aadab5f6230edf95.jpg","b843c76240269154564178470ed0a177.jpg"],
+      "colours":["Sea Green","Aqua Blue","Classic Black"],
+      "storage":["4 GB + 64 GB"],
+      "features":[
+        "The Redmi A2+ is designed to perform all the essential tasks for you to stay connected, and productive!",
+        "Leather texture finish on Redmi A2+ makes the smartphone look super trendy and gives it a smudge-free feel",
+        "Redmi A2+ comes with a fingerprint sensor to securely unlock your smartphone",
+        "Enjoy smooth, lag free performance on the Redmi A2+ with the powerful octa-core MediaTek Helio G36 based on 12nm architecture"
+      ],
+      "tags":["New","29% off"],
+      "description": "Redmi A2+",
+      "availableqty": 100
+    },
+    {
+        "id": 2,
+        "name": "Redmi A2",
+        "productcategoryid":1,
+        "mrp": 8999,
+        "price":5899,
+        "reviewscount":68,
+        "averagerating":5.0,
+        "images":["58ad589ae43783a51a15650279c9ac6b.jpg","52c652fe50e7d5aa9ab464b2cdd50c5b.jpg","52c652fe50e7d5aa9ab464b2cdd50c5b (1).jpg"],
+        "colours":["Classic Black","Aqua Blue","Sea Green"],
+        "storage":["2 GB + 32 GB","2 GB + 64 GB","4 GB + 64 GB"],
+        "features":[
+          "The Redmi A2+ is designed to perform all the essential tasks for you to stay connected, and productive!",
+          "Unique leather pattern finish on the back of Redmi A2 not only provides a comfortable grip but also makes it a fashion statement",
+          "Powerful octa-core chipset based on 12nm process let's you do more of everything smoothly without any lags or hangs",
+          "With up to 7GB* RAM on Redmi A2, switch between multiple apps smoothly"
+        ],
+        "tags":["New","34% off"],     
+        "description": "Redmi A2",
+        "availableqty": 100
+    },
+    {
+    "id": 3,
+    "name": "Redmi 12C",
+    "productcategoryid":1,
+    "mrp": 14999,
+    "price":9999,
+    "reviewscount":242,
+    "averagerating":4.9,
+    "images":["pms_1680031068.36277207.jpg","pms_1680031016.50257473.jpg","pms_1680031016.50257473 (1).jpg","pms_1680030998.0464825.jpg"],
+    "colours":["Matte Black","Mint Green","Lavender Purple","Royal Blue"],
+    "storage":["4 GB + 128 GB","4 GB + 64 GB","6 GB + 128 GB"],
+    "features":[
+        "The Redmi 12C is designed to perform all the essential tasks for you to stay connected, and productive!",
+        "Get the fast smartphone experience and multi-task in lag-free speeds with the powerful MediaTek Helio G85. This chipset brings the HyperEngine Technology for a superior gaming experience",
+        "Enjoy next - level smoothness with an additional 5GB virtual RAM extension on the 6GB RAM, delivering up to 11GB* extended RAM",
+        "Save your favorite photos, videos, games, music and more with up to 128GB storage on the Redmi 12C and a further expandable storage of up to 1TB with a micro-SD card"
+    ],
+    "tags":["New","33% off"],
+    "description": "Redmi 12C",
+    "availableqty": 100
+    },
+    {
+        "id": 4,
+        "name": "Redmi Note 12",
+        "productcategoryid":1,
+        "mrp": 18999,
+        "price":14999,
+        "reviewscount":48,
+        "averagerating":4.9,
+        "images":["pms_1680028933.44518072.jpg","pms_1680028915.70175713.jpg","pms_1680028893.42691134.jpg"],
+        "colours":["Lunar Black","Sunrise Gold","Ice Blue"],
+        "storage":["6 GB + 64 GB","6 GB + 128 GB"],
+        "features":[
+            "At just 7.8mm of thickness, Redmi Note 12 packs uber stylish design in an ultra-thin body, making this the sleekest Note",
+            "Segment leading Super AMOLED Display coupled with a 120Hz refresh rate on the Redmi Note 12 deliversstunning, immersive viewing experience with super smooth visuals",
+            "Redmi Note 12 debuts with the latest Snapdragon® 685. The super powerful octa-core chipset based on 6nm architecture delivers sustained power and performance",
+            "Get picture perfect shots with the 50MP camera setup on the Redmi Note 12"
+        ],
+        "tags":["21% off"],     
+        "description": "Redmi Note 12",
+        "availableqty": 100
+    },
+    {
+        "id": 5,
+        "name": "Redmi Note 12 Pro 5G",
+        "productcategoryid":1,
+        "mrp": 23999,
+        "price":27999,
+        "reviewscount":457,
+        "averagerating":5.0,
+        "images":["pms_1672740819.47555230.jpg","pms_1672740801.76754728.jpg","pms_1672740794.53385063.jpg"],
+        "colours":["Stardust Purple","Onyx Black","Glacier Blue"],
+        "storage":["6 GB + 128 GB","8 GB + 128 GB","8 GB + 256 GB"],
+        "features":[
+            "50MP Sony IMX 766 Camera + OIS MediaTek Dimensity 1080 5G 120Hz Pro AMOLED Display 67W Turbo Charge",
+            "50MP Sony IMX766 Sensor Bring out the Pro-fessional photographer in you with the flagship IMX766 sensor",
+            "Blur free pictures with Optical Image Stabilisation",
+            "Capture stunning low light pictures with the flagship camera setup",
+            "Experience extraordinary visuals on the 120Hz Pro AMOLED Displaywith variable refresh rate which automatically switches to match the content on the screen"
+        ],
+        "tags":["14% off"],     
+        "description": "Redmi Note 12 Pro 5G",
+        "availableqty": 100
+    },
+    {
+        "id": 6,
+        "name": "Redmi Note 12 Pro+ 5G",
+        "productcategoryid":1,
+        "mrp": 33999,
+        "price":29999,
+        "reviewscount":334,
+        "averagerating":5.0,
+        "images":["pms_1672738714.32997969.jpg","pms_1672738702.159453.jpg","pms_1672738683.48387848.jpg"],
+        "colours":["Obsidian Black","Iceberg Blue","Arctic white"],
+        "storage":["8 GB + 256 GB","12 GB + 256 GB"],
+        "features":[
+            "50MP Sony IMX 766 Camera + OIS MediaTek Dimensity 1080 5G 120Hz Pro AMOLED Display 67W Turbo Charge",
+            "50MP Sony IMX766 Sensor Bring out the Pro-fessional photographer in you with the flagship IMX766 sensor",
+            "Blur free pictures with Optical Image Stabilisation",
+            "Capture stunning low light pictures with the flagship camera setup",
+            "Experience extraordinary visuals on the 120Hz Pro AMOLED Displaywith variable refresh rate which automatically switches to match the content on the screen"
+        ],
+        "tags":["11% off"],     
+        "description": "Redmi Note 12 Pro+ 5G",
+        "availableqty": 100
+    },
+    {
+        "id": 7,
+        "name": "Redmi Note 12 5G",
+        "productcategoryid":1,
+        "mrp": 19999,
+        "price":16999,
+        "reviewscount":307,
+        "averagerating":4.9,
+        "images":["pms_1672876197.29825462.jpg","pms_1672876181.4498546.jpg","pms_1672876160.50773273.jpg"],
+        "colours":["Mystique Blue","Matte Black","Frosted Green"],
+        "storage":["4 GB + 128 GB","6 GB + 128 GB","8 GB + 256 GB"],
+        "features":[
+            "50MP Sony IMX 766 Camera + OIS MediaTek Dimensity 1080 5G 120Hz Pro AMOLED Display 67W Turbo Charge",
+            "50MP Sony IMX766 Sensor Bring out the Pro-fessional photographer in you with the flagship IMX766 sensor",
+            "Blur free pictures with Optical Image Stabilisation",
+            "Capture stunning low light pictures with the flagship camera setup",
+            "Experience extraordinary visuals on the 120Hz Pro AMOLED Displaywith variable refresh rate which automatically switches to match the content on the screen"
+        ],
+        "tags":["15% off"],     
+        "description": "Redmi Note 12 5G",
+        "availableqty": 100
+    },
+    {
+        "id": 8,
+        "name": "Redmi A1+",
+        "productcategoryid":1,
+        "mrp": 9999,
+        "price":6299,
+        "reviewscount":68,
+        "averagerating":5.0,
+        "images":["pms_1665657395.99737831.jpg","pms_1665657395.99737831.jpg","pms_1665657331.90189686.jpg"],
+        "colours":["Light Green","Light Blue","Black"],
+        "storage":["2 GB + 32 GB","3 GB + 32 GB"],
+        "features":[
+            "50MP Sony IMX 766 Camera + OIS MediaTek Dimensity 1080 5G 120Hz Pro AMOLED Display 67W Turbo Charge",
+            "50MP Sony IMX766 Sensor Bring out the Pro-fessional photographer in you with the flagship IMX766 sensor",
+            "Blur free pictures with Optical Image Stabilisation",
+            "Capture stunning low light pictures with the flagship camera setup",
+            "Experience extraordinary visuals on the 120Hz Pro AMOLED Displaywith variable refresh rate which automatically switches to match the content on the screen"
+        ],
+        "tags":["37% off"],     
+        "description": "Redmi A1+",
+        "availableqty": 100
+    },
+    {
+        "id": 9,
+        "name": "Redmi 11 Prime",
+        "productcategoryid":1,
+        "mrp": 9999,
+        "price":14999,
+        "reviewscount":42,
+        "averagerating":4.9,
+        "images":["pms_1663331060.38692361.jpg","pms_1663331053.21429114.jpg","pms_1663331044.2354491.jpg"],
+        "colours":["Playful Green","Peppy Purple","Flashy Black"],
+        "storage":["4 GB + 64 GB","6 GB + 128 GB"],
+        "features":[
+            "A new-age design with a perfect hand grip. Smudge-free texture with a premium finish. Redmi 11 Prime is designed to make you stand out from the crowd.",
+            "Now play all games without a lag or latency. The Redmi 11 Prime powered by MediaTek Helio G99 enables smooth multi-tasking experience to switch between apps with the help of LPDDR4X RAM and UFS 2.2 helps higher data transfer speed.",
+            "Enjoy the wholesome multimedia experience on a 16.71cm (6.58) screen with Hi-Res Audio support, ensuring a theatre like experience on your smartphone.",
+            "Experience the smooth and fast display with 3 stage AdaptiveSync refresh rate for scrolling, gaming or juggling between the apps.",
+            "The Redmi 11 Prime comes with a 50MP AI triple camera. Now make that trending videos with a super clear camera. The 8MP front camera ensures you get that profile picture worthy selfies."
+        ],
+        "tags":["33% off"],     
+        "description": "Redmi 11 Prime",
+        "availableqty": 100
+    },
+    {
+        "id": 10,
+        "name": "Redmi A1",
+        "productcategoryid":1,
+        "mrp": 8999,
+        "price":5899,
+        "reviewscount":1480,
+        "averagerating":4.9,
+        "images":["pms_1675340267.48588909.jpg","pms_1675340258.42563428.jpg","pms_1662398930.47448521.jpg"],
+        "colours":["Light Green","Black","Light Blue"],
+        "storage":["2 GB + 32 GB"],
+        "features":[
+            "The amazing A1 design with leather texture finish adds great grip, stylish looks & smudge free touch to the smartphone!",
+            "Redmi A1 comes with a massive HD+ Display supporting a 120Hz touch sampling rate bringing all that entertainment to your life",
+            "It packs a huge 5000mAh battery with a 10W charger in the box, now you do not have to worry about running out of charge. This also comes with OTG support",
+            "Powered by MediaTek Helio A22 along with high-speed LPDDR4X RAM, this smartphone is built for multi-tasking and power efficiency",
+            "Android 12 provides a clean Android experience that ensures rich connectivity and light AI to run faster and save data"
+        ],
+        "tags":["34% off"],     
+        "description": "Redmi 11 Prime",
+        "availableqty": 100
+    },
+    {
+        "id": 11,
+        "name": "Redmi 11 Prime 5G",
+        "productcategoryid":1,
+        "mrp": 15999,
+        "price":12999,
+        "reviewscount":726,
+        "averagerating":4.9,
+        "images":["pms_1662446288.16667229.jpg","pms_1662446272.08342530.jpg","pms_1662446280.14645018.jpg"],
+        "colours":["Chrome Silver","Meadow Green","Thunder Black"],
+        "storage":["4 GB + 64 GB","6 GB + 128 GB"],
+        "features":[
+            "The amazing Redmi 11 Prime 5G design with leather texture finish adds great grip, stylish looks & smudge free touch to the smartphone!",
+            "Redmi 11 Prime 5G comes with a massive HD+ Display supporting a 120Hz touch sampling rate bringing all that entertainment to your life",
+            "It packs a huge 5000mAh battery with a 10W charger in the box, now you do not have to worry about running out of charge. This also comes with OTG support",
+            "Powered by MediaTek Helio A22 along with high-speed LPDDR4X RAM, this smartphone is built for multi-tasking and power efficiency",
+            "Android 12 provides a clean Android experience that ensures rich connectivity and light AI to run faster and save data"
+        ],
+        "tags":["16% off"],     
+        "description": "Redmi 11 Prime 5G",
+        "availableqty": 100
+    },
+    {
+        "id": 12,
+        "name": "Redmi K50i 5G",
+        "productcategoryid":1,
+        "mrp": 35999,
+        "price":23999,
+        "reviewscount":647,
+        "averagerating":4.9,
+        "images":["pms_1658292465.92333513.jpg","pms_1658288453.79576060.jpg"],
+        "colours":["Quick Silver","Stealth Black"],
+        "storage":["8 GB + 256 GB","6 GB + 128 GB"],
+        "features":[
+            "The amazing Redmi K50i 5G design with leather texture finish adds great grip, stylish looks & smudge free touch to the smartphone!",
+            "Redmi K50i 5G comes with a massive HD+ Display supporting a 120Hz touch sampling rate bringing all that entertainment to your life",
+            "It packs a huge 5000mAh battery with a 10W charger in the box, now you do not have to worry about running out of charge. This also comes with OTG support",
+            "Powered by MediaTek Helio A22 along with high-speed LPDDR4X RAM, this smartphone is built for multi-tasking and power efficiency",
+            "Android 12 provides a clean Android experience that ensures rich connectivity and light AI to run faster and save data"
+        ],
+        "tags":["33% off"],     
+        "description": "Redmi K50i 5G",
+        "availableqty": 100
+    },
+    {
+        "id": 13,
+        "name": "Redmi Note 11",
+        "productcategoryid":1,
+        "mrp": 17999,
+        "price":13999,
+        "reviewscount":3678,
+        "averagerating":4.9,
+        "images":["pms_1644212187.55324564.png"],
+        "colours":["Space Black"],
+        "storage":["4 GB + 64 GB"],
+        "features":[
+            "The amazing Redmi Note 11 design with leather texture finish adds great grip, stylish looks & smudge free touch to the smartphone!",
+            "Redmi Note 11 comes with a massive HD+ Display supporting a 120Hz touch sampling rate bringing all that entertainment to your life",
+            "It packs a huge 5000mAh battery with a 10W charger in the box, now you do not have to worry about running out of charge. This also comes with OTG support",
+            "Powered by MediaTek Helio A22 along with high-speed LPDDR4X RAM, this smartphone is built for multi-tasking and power efficiency",
+            "Android 12 provides a clean Android experience that ensures rich connectivity and light AI to run faster and save data"
+        ],
+        "tags":["25% off"],     
+        "description": "Redmi Note 11",
+        "availableqty": 100
+    },
+    {
+        "id": 14,
+        "name": "Redmi 5",
+        "productcategoryid":1,
+        "mrp": 11999,
+        "price":9999,
+        "reviewscount":0,
+        "averagerating":0,
+        "images":["pms_1520994595.7232969.jpg"],
+        "colours":["Gold"],
+        "storage":["4 GB + 64 GB"],
+        "features":[
+            "The amazing Redmi 5 design with leather texture finish adds great grip, stylish looks & smudge free touch to the smartphone!",
+            "Redmi 5 comes with a massive HD+ Display supporting a 120Hz touch sampling rate bringing all that entertainment to your life",
+            "It packs a huge 5000mAh battery with a 10W charger in the box, now you do not have to worry about running out of charge. This also comes with OTG support",
+            "Powered by MediaTek Helio A22 along with high-speed LPDDR4X RAM, this smartphone is built for multi-tasking and power efficiency",
+            "Android 12 provides a clean Android experience that ensures rich connectivity and light AI to run faster and save data"
+        ],
+        "tags":[],     
+        "description": "Redmi 5",
+        "availableqty": 100
+    },
+    {
+        "id": 15,
+        "name": "Redmi 10A",
+        "productcategoryid":1,
+        "mrp": 10999,
+        "price":8499,
+        "reviewscount":0,
+        "averagerating":0,
+        "images":["pms_1650393960.86276248.png"],
+        "colours":["Slate Grey"],
+        "storage":["3 GB + 32 GB","4 GB + 64 GB"],
+        "features":[
+            "The amazing Redmi 10A design with leather texture finish adds great grip, stylish looks & smudge free touch to the smartphone!",
+            "Redmi 10A comes with a massive HD+ Display supporting a 120Hz touch sampling rate bringing all that entertainment to your life",
+            "It packs a huge 5000mAh battery with a 10W charger in the box, now you do not have to worry about running out of charge. This also comes with OTG support",
+            "Powered by MediaTek Helio A22 along with high-speed LPDDR4X RAM, this smartphone is built for multi-tasking and power efficiency",
+            "Android 12 provides a clean Android experience that ensures rich connectivity and light AI to run faster and save data"
+        ],
+        "tags":[],     
+        "description": "Redmi 10A",
+        "availableqty": 100
+    },
+    {
+        "id": 16,
+        "name": "Redmi 10",
+        "productcategoryid":1,
+        "mrp": 14999,
+        "price":9999,
+        "reviewscount":0,
+        "averagerating":0,
+        "images":["pms_1650393960.86276248.png"],
+        "colours":["Slate Grey"],
+        "storage":["4 GB + 64 GB","6 GB + 128 GB"],
+        "features":[
+            "The amazing Redmi 10 design with leather texture finish adds great grip, stylish looks & smudge free touch to the smartphone!",
+            "Redmi 10 comes with a massive HD+ Display supporting a 120Hz touch sampling rate bringing all that entertainment to your life",
+            "It packs a huge 5000mAh battery with a 10W charger in the box, now you do not have to worry about running out of charge. This also comes with OTG support",
+            "Powered by MediaTek Helio A22 along with high-speed LPDDR4X RAM, this smartphone is built for multi-tasking and power efficiency",
+            "Android 12 provides a clean Android experience that ensures rich connectivity and light AI to run faster and save data"
+        ],
+        "tags":[],     
+        "description": "Redmi 10",
+        "availableqty": 100
+    }
+  ],
+  "Banner":[
+    {
+        "id":1,
+        "title":"Prime 5G 11",
+        "tag":"Special Exchange Bonus of Up to ₹2000",
+        "image":"11_Prime_5G.webp",
+        "price":29999,
+        "mrp":33999
+    },
+    {
+        "id":2,
+        "title":"Note 12 Pro 5G",
+        "tag":"Special Exchange Bonus of Up to ₹2500",
+        "image":"Note_Pro_5G.webp",
+        "price":23999,
+        "mrp":27999
+    },
+    {
+        "id":3,
+        "title":"Note 12 Pro+ 5G",
+        "tag":"Special Exchange Bonus of Up to ₹4000",
+        "image":"Note_Pro_12Plus.webp",
+        "price":29999,
+        "mrp":33999
+    }
+  ],
+  "colorsList": [
+    {
+      "id": 1,
+      "name": "Sea Green"
+    },
+    {
+      "id": 2,
+      "name": "Aqua Blue"
+    },
+    {
+      "id": 3,
+      "name": "Classic Black"
+    }
+  ],
+  "imagesList": [
+    {
+      "id": 1,
+      "name": "9a811e076ef614fbcaee5d63702d6dbe.jpg"
+    },
+    {
+      "id": 2,
+      "name": "b0dc5c0db2210cb0aadab5f6230edf95.jpg"
+    },
+    {
+      "id": 3,
+      "name": "b843c76240269154564178470ed0a177.jpg"
+    }
+  ],
+  "storageList": [
+    {
+      "id": 1,
+      "name": "2 GB + 32 GB"
+    },
+    {
+      "id": 2,
+      "name": "2 GB + 64 GB"
+    },
+    {
+      "id": 3,
+      "name": "4 GB + 64 GB"
+    }
+  ],
+  "featuresList": [
+    {
+      "id": 1,
+      "name": "The Redmi A2+ is designed to perform all the essential tasks for you to stay connected, and productive!"
+    },
+    {
+      "id": 2,
+      "name": "Unique leather pattern finish on the back of Redmi A2 not only provides a comfortable grip but also makes it a fashion statement"
+    },
+    {
+      "id": 3,
+      "name": "Powerful octa-core chipset based on 12nm process let's you do more of everything smoothly without any lags or hangs"
+    }
+  ]
+}

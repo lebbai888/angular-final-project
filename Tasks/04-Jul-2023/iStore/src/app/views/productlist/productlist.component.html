@@ -1,0 +1,31 @@
+<div class="product-catalogue">
+    <div>
+        <h2 class="ph-h2">Phone</h2>
+        <ul class="condition-list">            
+            <li class="sort-item" role="button" tabindex="0">New</li>
+            <li class="condition-list__separator"></li><li class="sort-item" role="button" tabindex="0">Price<i class="micon micon-arrow-up condition-list__icon"></i></li>
+            <li class="condition-list__separator"></li>
+            <li class="filter-item">
+                <div class="mi-checkbox__item" role="button" tabindex="0">
+                    <input type="checkbox" class="checkbox__input" id="On sale"><span class="checkbox__content">On sale</span>                    
+                </div>
+            </li>
+            <li class="filter-item">
+                <div class="mi-checkbox__item" role="button" tabindex="0">
+                    <input type="checkbox" class="checkbox__input" id="In stock"> <span class="checkbox__content">In stock</span>                        
+                </div>
+            </li>
+        </ul>
+    </div>
+    <mat-divider style="margin-bottom: 10px;"></mat-divider>
+    <div style="display:flex;justify-content: right;margin-right:20px" *ngIf="isAdminUser">
+        <button mat-raised-button color="accent" (click)="addNewProduct()">Add new product</button>
+    </div>
+    <div class="ph-catalog_container">
+        <ul class="ph-product_list">
+            <li style="list-style: none;display: flex;" *ngFor="let prod of products">
+                <app-product [product]="prod"></app-product>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+<mat-toolbar id="main-menu" color = "primary">
+    <img src="../assets/images/dedalus-logo.png" height="50px" width="50px" alt="Dedalus">&nbsp;
+    <span class="app-title">Dedalus</span>
+    <ul>
+        <li><a routerLink="/user/home">Home</a></li>
+        <li><a routerLink="/user/phone">Phone</a></li>
+        <li><a routerLink="/">TV & Smart Phone</a></li>
+        <li><a routerLink="/">Laptop & Tablet</a></li>
+        <li><a routerLink="/">Life Style</a></li>
+    </ul>
+    <span class="css-spacer"></span>
+	<span flex></span>
+    <div>
+        <span style="vertical-align: text-bottom;">({{userName | titlecase}})</span>
+        <img src="../assets/images/{{userIconSrc}}" style="height:40px;width:40px;position:sticky;display: inline;" alt="Dedalus">
+        <button mat-button (click)="logout()" style="vertical-align: text-bottom;">Logout</button>
+    </div>
+</mat-toolbar>

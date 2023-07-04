@@ -1,0 +1,20 @@
+<div id="slide-area">
+    <div id="slide-show">
+        <div class="site-banner__info">
+            <h2 class="site-banner__title">{{currentBanner.title}}</h2>
+            <h4 class="site-banner__subtitle">{{currentBanner.tag}}</h4>
+            <br>
+            <div class=".site-banner__price">
+                <span style="margin-left: 10px;font-size: 40px;"><strong>{{currentBanner.price | currency:'INR':'symbol':'1.0-0'}}</strong></span>
+                <span style="margin-left: 10px;font-size: 28px;color:#999;text-decoration: line-through;">{{currentBanner.mrp | currency:'INR':'symbol':'1.0-0'}}</span>
+            </div>
+           <br>
+            <span><button mat-flat-button color="primary">Buy now</button>
+            <span style="margin-left:20px"><button mat-stroked-button color="primary">More details</button></span></span>
+        </div>                
+        <img [src]="image_src" id="img1" class="slide">
+        <img src="../assets/images/banner/left_arrow.png" id="left_icon" class="icon" (click)="changeImage('left')">
+        <img src="../assets/images/banner/right_arrow.png" id="right_icon" class="icon" (click)="changeImage('right')">
+    </div>    
+</div>
+<div style="height:350px">&nbsp;</div>
